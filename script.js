@@ -4,9 +4,7 @@ var myText = document.getElementById("text");
 
 
 function openTab(value) {
-    oldtab = window;
-    myTab = window.open('https://www.bing.com/search?q=' + value);
-    oldtab.focus()
+  myTab = window.open("https://www.bing.com/search?q=" + value);
 }
 
 function closeTab() {
