@@ -1,0 +1,1 @@
+start msedge "file:///%cd%/index.html"
